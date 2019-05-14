@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>nori</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/jquery.circliful.css">
+		<link rel="stylesheet" href="assets/css/header.css">
+		<link rel="stylesheet" href="assets/css/index.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="assets/script/jquery.circliful.min.js"></script>
+		<script src="assets/script/style.js"></script>
+		<script src="assets/script/donuts.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li onclick="scrollToTarget('about');">
+						<span>about</span>
+						<span class="line"></span>
+					</li>
+					<li onclick="scrollToTarget('skills');">
+						<span>skills</span>
+						<span class="line"></span>
+					</li>
+					<li onclick="scrollToTarget('works');">
+						<span>works</span>
+						<span class="line"></span>
+					</li>
+					<li onclick="scrollToTarget('contact');">
+						<span>contact</span>
+						<span class="line"></span>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="wrapper">
+			<div class="warning">
+				<div>
+					<span>[注意]本サイトは試作品のプレリリースです。時間の都合により、来月もしくは再来月ごろに正式版をリリースします。</span>
+				</div>
+			</div>
+			<section>
+				<div class="images-sample"></div>
+			</section>
+			<section id="about">
+				<h1 class="sec-title">about</h1>
+				<main>
+					<article class="">
+						<div class="header">
+							<h1>nori</h1>
+						</div>
+						<div class="my-image"></div>
+						<p class="left">1999年1月8日 奈良県天理市の病院で生まれ、大阪府豊中市で育つ。大学2年生の冬に、当時片道2時間以上かけていた通学時間を勿体無く感じ、大学のある京都市北区で下宿生活を始める。</p>
+						<p>車、家、町など、昔から形あるものの設計に非常に興味があり、高校生からその興味がパソコンに向く。高校ではJavaとPHPを学び、大学にはPHPとJavaScriptを使用したAO入試で入学した。大学に入ってから2年生の秋まではC言語やJavaを中心に、どこまで賢く読みやすいコードを作れるかということを追求した。その後、やはり自分はWEB開発に重点を置きたくなり、CodeIgniterやFlaskなどに触れる。2018年11月から京都イノベーション株式会社でインターンシップを始め、バックエンドエンジニアとして長期的に雇われる。2019年2月にはその技術が認められ、プロジェクトリーダーとして推薦された。</p>
+						<p>現在は複数のプロジェクトの代表兼フルスタックエンジニアを務め、自らの学問を追求するために大学院への進学を目指している。</p>
+					</article>
+				</main>
+			</section>
+
+			<section id="skills">
+				<h1 class="sec-title">skills</h1>
+				<main>
+					<div class="belt">
+						<h1>Fontend</h1>
+					</div>
+					<ul class="show-skills">
+
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">HTML4</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">HTML5</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">XHTML</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">CSS</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">CSS3</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Sass</span>
+								</div>
+							</section>
+						</li>
+
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Scss</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Bootstrap</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">JavaScript</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">jQuery</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="30"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Vue.js</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="30"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Nuxt.js</span>
+								</div>
+							</section>
+						</li>
+
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="30"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">React</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="50"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">mustache.js</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="20"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">electron</span>
+								</div>
+							</section>
+						</li>
+					</ul>
+
+					<div class="belt">
+						<h1>Backend</h1>
+					</div>
+					<ul class="show-skills">
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="70"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">PHP7</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="70"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">CodeIgniter</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="70"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">MySQL</span>
+								</div>
+							</section>
+							
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">PhpSpreadsheet</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">PhpExcel</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Python3</span>
+								</div>
+							</section>
+						</li>
+						
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Flask</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="30"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Ruby</span>
+								</div>
+							</section>
+						</li>
+					</ul>
+
+					<div class="belt">
+						<h1>System</h1>
+					</div>
+
+					<ul class="show-skills">
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="70"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">C</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="20"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">C++</span>
+								</div>
+							</section>
+								
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="70"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Java</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="20"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">OpenCV</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">JavaFX</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Go</span>
+								</div>
+							</section>
+						</li>
+
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Swift</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">MATLAB</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">VB</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">VBS</span>
+								</div>
+							</section>
+								
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">COBOL</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">kotlin</span>
+								</div>
+							</section>
+						</li>
+
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">shell</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Go</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">VHDL</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">VelilogHDL</span>
+								</div>
+							</section>
+						</li>
+					</ul>
+
+					<div class="belt">
+							<h1>Tool / Technology / Others</h1>
+					</div>
+
+					<ul class="show-skills">
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Git</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="60"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">Docker</span>
+								</div>
+							</section>
+		
+								
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">htaccess</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="90"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">JSON</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">yaml</span>
+								</div>
+							</section>
+		
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="80"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">vim</span>
+								</div>
+							</section>
+						</li>
+						<li>
+							<section class="card">
+								<div class="my-donuts">
+									<div class="graph_box">
+										<div class="graph_box_wrap white">
+											<canvas width="100" height="100" class="match_graph" data-percent="10"></canvas>
+											<div class="graph_box_percent"><span></span>%</div>  
+										</div>
+									</div>
+								</div>
+								<div class="skills-text">
+									<span class="skill-name">LaTeX</span>
+								</div>
+							</section>
+						</li>
+					</ul>
+				</main>
+			</section>
+
+			<section id="works">
+				<h1 class="sec-title">works</h1>
+				<!-- <main> -->
+					<div class="table-wrapper">
+						<table>
+							<tr>
+								<th>works</th>
+								<th>status</th>
+							</tr>
+							<tr>
+								<td>webアプリ作成支援サイト</td>
+								<td>completed</td>
+							</tr>
+							<tr>
+								<td>整骨院のホームページ</td>
+								<td>stopped(request from client)</td>
+							</tr>
+							<tr>
+								<td>carpaccio project(learning support tool)</td>
+								<td>in development</td>
+							</tr>
+							<tr>
+								<td>oro project(ASCII art conversion tool)</td>
+								<td>in development</td>
+							</tr>
+							<tr>
+								<td>in the internship</td>
+								<td>in the working</td>
+							</tr>
+						</table>
+					</div>
+				<!-- </main> -->
+			</section>
+
+			<section id="contact">
+				<h1 class="sec-title">contact</h1>
+				<span>
+					<p class="information">mail: <a href="mailto:norinorimcz@gmail.com">norinorimcz@gmail.com</a></p>
+				</span>
+			</section>
+		</div>
+		<footer>
+		</footer>
+	</body>
+</html>
